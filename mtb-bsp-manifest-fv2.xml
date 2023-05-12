@@ -1,0 +1,62 @@
+<boards>
+  <board default_location="local">
+    <id>CYW920829-KEYBOARD</id>
+    <category>AIROC™ Bluetooth® BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_CYW920829-KEYBOARD</board_uri>
+    <chips>
+      <mcu>CYW20829B0LKML</mcu>
+      <radio>CYW20829B0LKML</radio>
+    </chips>
+    <name>CYW920829-KEYBOARD</name>
+    <summary>    The AIROC&amp;#8482; CYW20829 keyboard reference solution is an ultra-low power keyboard design with multi-device support that demonstrates Bluetooth&amp;#174; LE HID over GATT profile It comes with the right combination of low power and high performance dual core Arm&amp;#174; Cortex&amp;#174; M33 to meet the demands of battery powered keyboard.</summary>
+    <prov_capabilities>ble bsp_gen4 bt cat1 cat1b cyw20829 cyw920829_keyboard flash_0k hal i2s led low_power mcu_gp memory memory_qspi mxsv2 nor_flash pdm qspi rtc sdhc smart_io sram_64k std_crypto switch</prov_capabilities>
+    <description>        &lt;div class=&quot;category&quot;&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;32-bit CPU subsystem with Arm&amp;#174; Cortex&amp;#174; M33&lt;/li&gt;         &lt;li&gt;128-KB SRAM with power and data retention control&lt;/li&gt;         &lt;li&gt;Low power 2.1 - 3.0 V operation&lt;/li&gt;         &lt;li&gt;Bluetooth&amp;#174; LE subsystem with 2.4GHz RF transceiver, Digital PHY and Programmable TX power&lt;/li&gt;         &lt;li&gt;Battery voltage measurement with 16 bit ADC&lt;/li&gt;         &lt;li&gt;5-pin SWD connectors&lt;/li&gt;         &lt;li&gt;Built-in Keyscan matrix pre-configured for 79 keys layout&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class=&quot;category&quot;&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW920829-KEYBOARD Reference kit&lt;/li&gt;         &lt;li&gt;Kit Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/promopages/airoc20829/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>CYW920829-MOUSE</id>
+    <category>AIROC™ Bluetooth® BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_CYW920829-MOUSE</board_uri>
+    <chips>
+      <mcu>CYW20829B0LKML</mcu>
+      <radio>CYW20829B0LKML</radio>
+    </chips>
+    <name>CYW920829-MOUSE</name>
+    <summary>    The AIROC&amp;#8482; CYW20829 mouse reference solution is an ultra-low power mouse design with multi-device support that demonstrates Bluetooth&amp;#174; LE HID over GATT profile It comes with the right combination of low power and high performance dual core Arm&amp;#174; Cortex&amp;#174; M33 to meet the demands of battery powered mouse.</summary>
+    <prov_capabilities>ble bsp_gen4 bt cat1 cat1b cyw20829 cyw920829_mouse flash_0k hal i2s led low_power mcu_gp memory memory_qspi mxsv2 nor_flash pdm qspi rtc sdhc smart_io sram_64k std_crypto switch</prov_capabilities>
+    <description>        &lt;div class=&quot;category&quot;&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;32-bit CPU subsystem with Arm&amp;#174; Cortex&amp;#174; M33&lt;/li&gt;         &lt;li&gt;128-KB SRAM with power and data retention control&lt;/li&gt;         &lt;li&gt;Low power 2.1 - 3.0 V operation&lt;/li&gt;         &lt;li&gt;Bluetooth&amp;#174; LE subsystem with 2.4GHz RF transceiver, Digital PHY and Programmable TX power&lt;/li&gt;         &lt;li&gt;Battery voltage measurement with 16 bit ADC&lt;/li&gt;         &lt;li&gt;5-pin SWD connectors&lt;/li&gt;         &lt;li&gt;Left, Right, Middle and DPI buttons&lt;/li&gt;         &lt;li&gt;SPI based optical motion sensor&lt;/li&gt;         &lt;li&gt;F-switch Quadrature Encoder for scroll wheel&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class=&quot;category&quot;&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW20829-MOUSE reference kit&lt;/li&gt;         &lt;li&gt;Kit Quick Start Guide&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/promopages/airoc20829/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="spi">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
+    <id>CYW920829M2EVK-02</id>
+    <category>AIROC™ Bluetooth® BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_CYW920829M2EVK-02</board_uri>
+    <chips>
+      <mcu>CYW920829M2</mcu>
+      <radio>CYW920829M2</radio>
+    </chips>
+    <name>CYW920829M2EVK-02</name>
+    <summary>    The Infineon AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE evaluation kit (CYW92089M2EVK-02) enables evaluation, prototyping, and development of a wide array of IoT applications using the AIROC&amp;#8482; CYW20829, a low power and high performance Bluetooth&amp;#174; LE MCU.     &lt;p/&gt;     The AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE MCU provides reliable Bluetooth&amp;#174; connectivity, core spec compliant to 5.4. It is a highly integrated device with an ARM&amp;#174; Cortex&amp;#174; M33 that is dedicated for customer applications, and an integrated power amplifier with 10 dBm of transmit output power. The AIROC&amp;#8482; CYW20829 is ideal for a wide range of applications in home and industrial automation, sensors, lighting, Bluetooth&amp;#174; mesh, remote controls and any other Bluetooth&amp;#174; LE connected IoT application.     &lt;p/&gt;     The AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE evaluation kit (CYW920829M2EVK-02) and ModusToolbox&amp;#8482; software and tools form a powerful but easy to use toolset that helps developers create amazing Bluetooth&amp;#174; enabled IoT solutions.</summary>
+    <prov_capabilities>ble bsp_gen4 bt cat1 cat1b cyw20829 cyw920829m2evk_02 flash_0k hal i2s led low_power mcu_gp memory memory_qspi mesh mxsv2 nor_flash pdm qspi rtc sdhc smart_io sram_64k std_crypto switch</prov_capabilities>
+    <description>        &lt;div class=&quot;category&quot;&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE MCU in 56 pin QFN package&lt;/li&gt;         &lt;li&gt;Arduino compatible headers for hardware expansion&lt;/li&gt;         &lt;li&gt;On-board sensors - 6-axis IMU, thermistor, Infineon analog microphone, and Infineon digital microphone&lt;/li&gt;         &lt;li&gt;User switches, RGB LED and user LEDs&lt;/li&gt;         &lt;li&gt;USB connector for power, programming and USB-UART bridge&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class=&quot;category&quot;&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW20829 evaluation board (CYW9BTM2BASE3+CYW920829M2IPA2)&lt;/li&gt;         &lt;li&gt;USB Type-A to Micro-B cable&lt;/li&gt;         &lt;li&gt;Six jumper wires (five inches each)&lt;/li&gt;         &lt;li&gt;Quick start guide&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/promopages/airoc20829/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </board>
+</boards>

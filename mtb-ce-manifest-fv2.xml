@@ -1,0 +1,249 @@
+<apps version="2.0">
+  <app keywords="mtb-flow,ble,bluetooth,btstack,freertos,battery" req_capabilities_v2="[cyw20829] bt led">
+    <name>Bluetooth LE Battery Server</name>
+    <id>mtb-example-btstack-freertos-battery-server</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-battery-server</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; LE Battery Service. The Battery Service exposes the Battery Level of the device and comes with support for OTA update over Bluetooth&#174; LE.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-battery-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>Latest 5.X release</num>
+        <commit>latest-v5.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>5.1.0 release</num>
+        <commit>release-v5.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,ble,bluetooth,btstack,freertos,findme" req_capabilities_v2="bt led">
+    <name>Bluetooth LE Findme</name>
+    <id>mtb-example-btstack-freertos-findme</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-findme</uri>
+    <description><![CDATA[This design implements a Bluetooth&#174; Low Energy FMP(Find Me Profile) that consists of an IAS(Immediate Alert Service). FMP and IAS are Bluetooth&#174; Low Energy standard Profile and Service respectively, as defined by the Bluetooth&#174; SIG.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-findme/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>4.4.0 release</num>
+        <commit>release-v4.4.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,btstack,freertos,cts,server,bluetooth" req_capabilities_v2="bt led [cyw920829m2evk_02]">
+    <name>Bluetooth LE CTS Server</name>
+    <id>mtb-example-btstack-freertos-cts-server</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cts-server</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a simple AIROC&#8482; Bluetooth&#174; LE GAP central - GATT server with Current time service (CTS) using the AIROC&#8482; Wi-Fi & Bluetooth&#174; combos and ModusToolbox&#8482; Software Environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cts-server/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>4.3.0 release</num>
+        <commit>release-v4.3.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="mtb-flow,btstack,freertos,cts,client,bluetooth" req_capabilities_v2="bt led [cyw920829m2evk_02]">
+    <name>Bluetooth LE CTS Client</name>
+    <id>mtb-example-btstack-freertos-cts-client</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cts-client</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a simple AIROC&#8482; Bluetooth&#174; LE GAP peripheral - GATT client with Current time service (CTS) using the AIROC&#8482; Wi-Fi & Bluetooth&#174; combos and ModusToolbox&#8482; Software Environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cts-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>4.3.0 release</num>
+        <commit>release-v4.3.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt led">
+    <name>Bluetooth LE Hello Sensor</name>
+    <id>mtb-example-btstack-freertos-hello-sensor</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-hello-sensor</uri>
+    <description><![CDATA[This code example demonstrates the implementation of Bluetooth&#174; LE custom service with Bluetooth&#174; security using AIROC&#8482; CYW20829, PSoC&#8482; 6 , and ModusToolbox&#8482; software.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-hello-sensor/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>3.3.0 release</num>
+        <commit>release-v3.3.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt led">
+    <name>Bluetooth LE Hello Client</name>
+    <id>mtb-example-btstack-freertos-hello-client</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-hello-client</uri>
+    <description><![CDATA[This code example demonstrates the implementation of Bluetooth&#174; LE multi role application using AIROC&#8482; CYW20829, and ModusToolbox&#8482; software.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-hello-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pairing,mtb-flow,bluetooth,ble,hello,sensor,le-lr,central,client,button" req_capabilities_v2="ble led [cyw920829m2evk_02]">
+    <name>Bluetooth LE Long Range Central</name>
+    <id>mtb-example-btstack-freertos-le-lr-central</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-le-lr-central</uri>
+    <description><![CDATA[This code example demonstrates the use of LE Long Range PHY as a central (GATT Client) application with Infineon AIROC&#8482; CYW20829 Bluetooth&#174; devices and ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-le-lr-central/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>ble led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pairing,mtb-flow,bluetooth,ble,hello,sensor,le-lr,peripheral,server,button" req_capabilities_v2="ble led [cyw920829m2evk_02]">
+    <name>Bluetooth LE Long Range Peripheral</name>
+    <id>mtb-example-btstack-freertos-le-lr-peripheral</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-le-lr-peripheral</uri>
+    <description><![CDATA[This code example demonstrates the use of LE Long Range PHY as a peripheral (GATT Sever) application with Infineon AIROC&#8482; CYW20829 Bluetooth&#174; devices and ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-le-lr-peripheral/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>ble led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,mtb-flow,ble,bluetooth,btstack,freertos,ess" req_capabilities_v2="bt led [flash_2048k, flash_1024k, flash_512k]">
+    <name>Bluetooth LE Environmental Sensing Service</name>
+    <id>mtb-example-btstack-freertos-ess</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-ess</uri>
+    <description><![CDATA[This code example demonstrates the implementation of a simple Bluetooth&#174; Low Energy Environmental Sensing Profile. It shows how to send environmental parameters like temperature by sending simulated temperature values over the Bluetooth&#174; Low Energy connection using the AIROC&#8482; Wi-Fi & Bluetooth&#174; combos supported in AnyCloud-SDK.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-ess/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>Latest 4.X release</num>
+        <commit>latest-v4.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>4.3.0 release</num>
+        <commit>release-v4.3.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="beacon,mtb-flow,bluetooth,ble" req_capabilities_v2="ble">
+    <name>Bluetooth LE Extended Advertisement Beacon</name>
+    <id>mtb-example-btstack-freertos-extadv-beacon</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-extadv-beacon</uri>
+    <description><![CDATA[This code example demonstrates the implementation of Bluetooth&#174; Low Energy extended advertisements and use of beacon library using ModusToolbox&#8482; software.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-extadv-beacon/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>ble cyw920829m2evk_02</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>2.1.0 release</num>
+        <commit>release-v2.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="pairing,mtb-flow,bluetooth,ble,battery,client,button" req_capabilities_v2="bt led">
+    <name>Bluetooth LE Battery Client</name>
+    <id>mtb-example-btstack-freertos-battery-client</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-battery-client</uri>
+    <description><![CDATA[This code example demonstrates the implementation of the Bluetooth&#174; LE Battery Service client using the Infineon&#174; AIROC&#8482; CYW20829 Bluetooth&#174; chip and PSoC&#8482; 6 MCU with AIROC&#8482; Bluetooth&#174; LE with ModusToolbox&#8482; software environment.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-battery-client/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt led</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>Latest 1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
+        <num>1.2.0 release</num>
+        <commit>release-v1.2.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="hid,mouse,bluetooth,button" req_capabilities_v2="bt cyw20829 [cyw920829_mouse]">
+    <name>AIROC LE CYW20829 Mouse</name>
+    <id>mtb-example-btstack-freertos-cyw20829-mouse</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-mouse</uri>
+    <description><![CDATA[This code example demonstrates a mouse solution using HID (Human Interface Device) Profile from Bluetooth&#174; Low Energy with Windows, Android and IOS.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-mouse/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="hid,keyboard,bluetooth,button" req_capabilities_v2="bt cyw20829 [cyw920829_keyboard]">
+    <name>AIROC LE CYW20829 Keyboard</name>
+    <id>mtb-example-btstack-freertos-cyw20829-keyboard</id>
+    <category>Bluetooth&#174;</category>
+    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-keyboard</uri>
+    <description><![CDATA[This code example demonstrates a keyboard solution using HID (Human Interface Device) Profile from Bluetooth&#174; Low Energy with Windows, Android and IOS.
+    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-cyw20829-keyboard/blob/master/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>bt cyw20829</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>Latest 2.X release</num>
+        <commit>latest-v2.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
+      </version>
+    </versions>
+  </app>
+</apps>
