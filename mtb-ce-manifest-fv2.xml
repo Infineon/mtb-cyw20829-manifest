@@ -94,25 +94,6 @@
       </version>
     </versions>
   </app>
-  <app keywords="pairing,mtb-flow,bluetooth,button" req_capabilities_v2="bt led">
-    <name>Bluetooth LE Hello Client</name>
-    <id>mtb-example-btstack-freertos-hello-client</id>
-    <category>Bluetooth&#174;</category>
-    <uri>https://github.com/Infineon/mtb-example-btstack-freertos-hello-client</uri>
-    <description><![CDATA[This code example demonstrates the implementation of Bluetooth&#174; LE multi role application using AIROC&#8482; CYW20829, and ModusToolbox&#8482; software.
-    <br><br>For more details, see the <a href="https://github.com/Infineon/mtb-example-btstack-freertos-hello-client/blob/master/README.md">README on GitHub</a>.]]></description>
-    <req_capabilities>bt led</req_capabilities>
-    <versions>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
-        <num>Latest 1.X release</num>
-        <commit>latest-v1.X</commit>
-      </version>
-      <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version_v2="[bsp_gen4] [cyw920829m2evk_02]">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
-      </version>
-    </versions>
-  </app>
   <app keywords="pairing,mtb-flow,bluetooth,ble,hello,sensor,le-lr,central,client,button" req_capabilities_v2="ble led [cyw920829m2evk_02]">
     <name>Bluetooth LE Long Range Central</name>
     <id>mtb-example-btstack-freertos-le-lr-central</id>
