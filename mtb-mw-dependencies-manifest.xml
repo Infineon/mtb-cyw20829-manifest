@@ -18,19 +18,40 @@
     <id>btstack-integration</id>
     <versions>
       <version>
+        <commit>release-v4.4.0</commit>
+        <dependees>
+          <dependee>
+            <id>btstack</id>
+            <commit>release-v3.7.2</commit>
+          </dependee>
+          <dependee>
+            <id>freertos</id>
+            <commit>release-v10.4.305</commit>
+          </dependee>
+          <dependee>
+            <id>abstraction-rtos</id>
+            <commit>release-v1.7.3</commit>
+          </dependee>
+          <dependee>
+            <id>clib-support</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
         <commit>release-v4.3.1</commit>
         <dependees>
           <dependee>
             <id>btstack</id>
-            <commit>latest-v3.X</commit>
+            <commit>release-v3.7.1</commit>
           </dependee>
           <dependee>
             <id>freertos</id>
-            <commit>latest-v10.X</commit>
+            <commit>release-v10.4.305</commit>
           </dependee>
           <dependee>
             <id>abstraction-rtos</id>
-            <commit>latest-v1.X</commit>
+            <commit>release-v1.7.1</commit>
           </dependee>
           <dependee>
             <id>clib-support</id>

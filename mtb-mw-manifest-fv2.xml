@@ -64,6 +64,11 @@
     <req_capabilities>bt</req_capabilities>
     <versions>
       <version flow_version="1.0,2.0">
+        <num>4.4.0 release</num>
+        <commit>release-v4.4.0</commit>
+        <desc>4.4.0 release</desc>
+      </version>
+      <version flow_version="1.0,2.0">
         <num>4.3.1 release</num>
         <commit>release-v4.3.1</commit>
         <desc>4.3.1 release</desc>
@@ -101,6 +106,11 @@
     <category>Bluetooth&#174;</category>
     <req_capabilities>psoc6 bt</req_capabilities>
     <versions>
+      <version flow_version="1.0,2.0">
+        <num>3.7.2 release</num>
+        <commit>release-v3.7.2</commit>
+        <desc>3.7.2 release</desc>
+      </version>
       <version flow_version="1.0,2.0">
         <num>3.7.1 release</num>
         <commit>release-v3.7.1</commit>
