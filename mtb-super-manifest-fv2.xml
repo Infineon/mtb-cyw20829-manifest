@@ -6,7 +6,7 @@
   </board-manifest-list>
   <app-manifest-list>
     <app-manifest>
-      <uri>https://github.com/Infineon/mtb-cyw20829-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml</uri>
+      <uri>https://github.com/Infineon/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml</uri>
     </app-manifest>
   </app-manifest-list>
   <middleware-manifest-list>
