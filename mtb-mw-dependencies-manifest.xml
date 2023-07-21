@@ -77,5 +77,61 @@
     </versions>
   </depender>
 
+  <depender>
+    <id>ota-update</id>
+    <versions>
+      <version>
+        <commit>latest-v3.X</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>btstack-integration</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>mbedtls</id>
+            <commit>mbedtls-2.25.0</commit>
+          </dependee>
+          <dependee>
+            <id>cy-mbedtls-acceleration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>retarget-io</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+      <version>
+        <commit>release-v3.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>connectivity-utilities</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>btstack-integration</id>
+            <commit>latest-v4.X</commit>
+          </dependee>
+          <dependee>
+            <id>mbedtls</id>
+            <commit>mbedtls-2.25.0</commit>
+          </dependee>
+          <dependee>
+            <id>cy-mbedtls-acceleration</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>retarget-io</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+
 </dependencies>
 

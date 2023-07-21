@@ -119,5 +119,35 @@
     </versions>
   </middleware>
 
+  <middleware>
+    <name>ota-update</name>
+    <id>ota-update</id>
+    <uri>https://github.com/Infineon/ota-update</uri>
+    <desc><![CDATA[
+        The OTA library provides support for Over-The-Air update of the application code running on a 20829 Bluetooth chip, using Bluetooth. Please see current documentation for currently supported devices. OTA requires the use of mcuboot.
+        <br/>
+        <div class="category">Additional Information:</div>
+        <ul>
+          <li><a href="https://github.com/infineon/ota-update/blob/master/README.md">OTA API README.md</a></li>
+          <li><a href="https://infineon.github.io/ota-update/api_reference_manual/html/index.html">OTA API reference guide</a></li>
+          <li><a href="https://github.com/JuulLabs-OSS/mcuboot/blob/cypress/docs/design.md">MCUboot documentation</a></li>
+        </ul>
+    ]]></desc>
+    <category>Middleware</category>
+    <req_capabilities/>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>Latest 3.X release</num>
+        <commit>latest-v3.X</commit>
+        <desc>Latest 3.X release</desc>
+      </version>
+      <version flow_version="2.0" tools_min_version="3.0.0">
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
+        <desc>3.0.0 release</desc>
+      </version>
+    </versions>
+  </middleware>
+
 </middleware>
 
