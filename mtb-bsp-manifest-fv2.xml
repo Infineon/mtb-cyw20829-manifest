@@ -40,6 +40,26 @@
     </versions>
   </board>
   <board default_location="local">
+    <id>CYW920829-VR</id>
+    <category>AIROC™ Bluetooth® BSPs</category>
+    <board_uri>https://github.com/Infineon/TARGET_CYW920829-VR</board_uri>
+    <chips>
+      <mcu>CYW20829B0LKML</mcu>
+      <radio>CYW20829B0LKML</radio>
+    </chips>
+    <name>CYW920829-VR</name>
+    <summary>    The AIROC&amp;#8482; CYW20829 Bluetooth&amp;#174; LE SoC is a Bluetooth&amp;#174; 5.4 core spec-compliant for IoT, HID, smart home and industrial applications. It comes with the right combination of low power and high performance dual core Arm&amp;#174; Cortex&amp;#174; M33 to meet the high demands of Bluetooth&amp;#174; LE Applications.</summary>
+    <prov_capabilities>ble bt cat1 cat1b cyw20829 cyw920829_vr flash_0k hal i2s led low_power mcu_gp memory memory_qspi mxsv2 nor_flash pdm qspi rtc sdhc smart_io sram_64k std_crypto switch</prov_capabilities>
+    <description>        &lt;div class=&quot;category&quot;&gt;Kit Features:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;32-bit CPU subsystem with Arm&amp;#174; Cortex&amp;#174; M33&lt;/li&gt;         &lt;li&gt;256-KB SRAM with power and data retention control&lt;/li&gt;         &lt;li&gt;Low power 1.7 - 3.6 V operation&lt;/li&gt;         &lt;li&gt;Bluetooth&amp;#174; LE subsystem with 2.4GHz RF transceiver, Digital PHY and Programmable TX power&lt;/li&gt;         &lt;li&gt;ADCMic with Audio and DC measurement capability&lt;/li&gt;         &lt;li&gt;Connectors for battery&lt;/li&gt;         &lt;li&gt;10-pin SWD connectors&lt;/li&gt;         &lt;li&gt;Up to 26 programmable GPIOs&lt;/li&gt;         &lt;/ul&gt;&lt;p/&gt;         &lt;div class=&quot;category&quot;&gt;Kit Contents:&lt;/div&gt;&lt;ul&gt;         &lt;li&gt;CYW920829-VR Reference Remote board&lt;/li&gt;         &lt;li&gt;USB-UART cable&lt;/li&gt;         &lt;li&gt;MiniProg-4&lt;/li&gt;         &lt;li&gt;Kit User Guide&lt;/li&gt;         &lt;/ul&gt;</description>
+    <documentation_url>https://www.infineon.com/cms/en/product/promopages/airoc20829/</documentation_url>
+    <versions>
+      <version tools_min_version="3.0.0" flow_version="2.0" prov_capabilities_per_version="bsp_gen4">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </board>
+  <board default_location="local">
     <id>CYW920829M2EVK-02</id>
     <category>AIROC™ Bluetooth® BSPs</category>
     <board_uri>https://github.com/Infineon/TARGET_CYW920829M2EVK-02</board_uri>

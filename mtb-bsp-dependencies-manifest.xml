@@ -19,7 +19,7 @@
           </dependee>
           <dependee>
             <id>mtb-pdl-cat1</id>
-            <commit>latest-v3.X</commit>
+            <commit>release-v3.3.1</commit>
           </dependee>
           <dependee>
             <id>recipe-make-cat1b</id>
@@ -49,7 +49,37 @@
           </dependee>
           <dependee>
             <id>mtb-pdl-cat1</id>
-            <commit>latest-v3.X</commit>
+            <commit>release-v3.3.1</commit>
+          </dependee>
+          <dependee>
+            <id>recipe-make-cat1b</id>
+            <commit>release-v2.1.0</commit>
+          </dependee>
+        </dependees>
+      </version>
+    </versions>
+  </depender>
+  <depender>
+    <id>CYW920829-VR</id>
+    <versions>
+      <version>
+        <commit>release-v1.0.0</commit>
+        <dependees>
+          <dependee>
+            <id>core-lib</id>
+            <commit>latest-v1.X</commit>
+          </dependee>
+          <dependee>
+            <id>core-make</id>
+            <commit>release-v3.1.1</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-hal-cat1</id>
+            <commit>release-v2.4.0</commit>
+          </dependee>
+          <dependee>
+            <id>mtb-pdl-cat1</id>
+            <commit>release-v3.3.1</commit>
           </dependee>
           <dependee>
             <id>recipe-make-cat1b</id>
@@ -79,7 +109,7 @@
           </dependee>
           <dependee>
             <id>mtb-pdl-cat1</id>
-            <commit>latest-v3.X</commit>
+            <commit>release-v3.3.1</commit>
           </dependee>
           <dependee>
             <id>recipe-make-cat1b</id>
